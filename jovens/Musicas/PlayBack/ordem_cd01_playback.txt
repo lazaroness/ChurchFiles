@@ -1,0 +1,13 @@
+#---------------------------
+# Ordem CD 01 PLAYBACK
+#---------------------------
+1  -> Canção do Céu
+2  -> Efésios 6
+3  -> Coração Valente
+4  -> Primeira Essência
+5  -> Colisão
+6  -> Raridade
+7  -> Força e Sabedoria
+8  -> A Igreja Vem
+9  -> Terra Fértil
+10 -> Marcado com Sangue
