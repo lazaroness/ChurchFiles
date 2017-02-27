@@ -1,5 +1,7 @@
 # Church Files
 # Version: 20170227
 git clone git@github.com:lazaroness/ChurchFiles.git
-\
-www.lazaronesantana.com
+
+# Lazarone S. Santana
+# www.lazaronesantana.com
+# lazarone.info.web@gmail.com
