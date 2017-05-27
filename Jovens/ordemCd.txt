@@ -10,5 +10,44 @@
 # 07 -> Tu és a cura
 # 08 -> Tua unção
 # 09 -> Rompendo em Fé
-# 10 -> ____________________________________
-# 11 -> ____________________________________
+# 10 -> Isso é coisa pra Deus
+# 11 -> Carregado pelo Espirito
+
+
+
+#-------------------------------------------
+# SARAH FARIAS - PLAYBACK
+#-------------------------------------------
+# 01 -> Isaias 512
+# 02 -> Voltando pra Sarça
+# 03 -> Novidade
+# 04 -> Eu creio em Deus
+# 05 -> Nunca Mais
+# 06 -> Majestade Santa
+# 07 -> Me escolheu
+# 08 -> Posso tudo
+# 09 -> Se Renovarão
+# 10 -> Guarde o seu coração
+# 11 -> Movimenta as águas
+# 12 -> É sim!
+
+
+
+#-------------------------------------------
+# Voz Da Verdade - PLAYBACK
+#-------------------------------------------
+# 01 -> Até o Fim
+# 02 -> Clamai Cantando
+# 03 -> Confissão
+# 04 -> Coração Puro
+# 05 -> Gênesis
+# 06 -> Guarda-me Oh Deus
+# 07 -> Guerreiros
+# 08 -> Invisivel
+# 09 -> Manifesta-te Senhor
+# 10 -> O Escudo
+# 11 -> O Maior Dos Sonhos
+# 12 -> O Melhor de Deus Está Por Vir
+# 13 -> O Verdadeiro Adorador
+# 14 -> Posso
+# 15 -> Quando a Noite Chegava
