@@ -1,12 +1,6 @@
 console.log("Arquivo para os script das aplicação");
 
-var list = [
-  {"description": "Entrada de teste", "value": "29.90", "type": "E", "date": "23/07/2017"},
-  {"description": "Saida de teste", "value": "9.90", "type": "S", "date": "24/07/2017"},
-  {"description": "Entrada de teste 2", "value": "1.90", "type": "E", "date": "24/07/2017"},
-  {"description": "Saida de teste 2", "value": "2.50", "type": "S", "date": "24/07/2017"},
-  {"description": "Saida de teste 3", "value": "0.30", "type": "S", "date": "24/07/2017"},
-];
+var list = [];
 
 function getTotalEntrada(list){
   var total = 0;
@@ -109,19 +103,50 @@ function addData(){
   setList(list);
 }
 
+function deleteData(id){
+  if(confirm("Apagar o lançamento?")){
+    if(id === list.length -1){
+      list.pop();
+    }else if(id === 0){
+      list.shift();
+    }else{
+      var arrAuxIni = list.slice(0, id);
+      var arrAuxEnd = list.slice(id+1);
+      list = arrAuxIni.concat(arrAuxEnd);
+    }
+    setList(list);
+  }
+}
+
+function setUpdate(id){
+  var obj = list[id];
+  document.getElementById('description').value = obj.description;
+  document.getElementById('value').value = obj.value;
+  document.getElementById('type').value = obj.type;
+  document.getElementById('date').value = obj.date;
+
+  document.getElementById('btnUpdate').style = 'display: inline-block';
+  document.getElementById('btnAdd').style = 'display: none';
+
+  document.getElementById('inputIdUpdate').innerHTML = '<input type="hidden" value="'+ id + '" id="idUpdate" />';
+}
+
+function updateData(){
+  var id     = document.getElementById('idUpdate').value;
+  var obj    = list[id];
+  obj.description   = document.getElementById('description').value;
+  obj.value = document.getElementById('value').value;
+  obj.type  = document.getElementById('type').value;
+  obj.date  = document.getElementById('date').value;
+  resetForm();
+  setList(list);
+}
+
 function deleteList(){
   if(confirm("Apagar os lançamentos?")){
     list = [];
     setList(list);
   }
-}
-
-function setUpdate(key){
-  alert("Função(setUpdate(" + key + ")) ainda não implementada.");
-}
-
-function deleteData(key){
-  alert("Função(deleteData(" + key + ")) ainda não implementada.");
 }
 
 function saveListStorage(list){
