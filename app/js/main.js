@@ -142,13 +142,6 @@ function updateData(){
   setList(list);
 }
 
-function deleteList(){
-  if(confirm("Apagar os lançamentos?")){
-    list = [];
-    setList(list);
-  }
-}
-
 function saveListStorage(list){
   var jsonStr = JSON.stringify(list);
   localStorage.setItem("fonteEterna", jsonStr);
