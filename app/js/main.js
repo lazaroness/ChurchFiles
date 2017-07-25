@@ -31,7 +31,7 @@ function getTotal(list){
 }
 
 function formatDesc(desc){
-  var str = desc.toLowerCase();
+  var str = desc;//.toLowerCase();
   str = str.charAt(0).toUpperCase() + str.slice(1);
   return str;
 }
