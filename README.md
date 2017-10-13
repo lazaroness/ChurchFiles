@@ -1,5 +1,5 @@
 # Church Files
-# Version: 20170526
+# Version: 20171012
 git clone git@github.com:lazaroness/ChurchFiles.git
 
 Lazarone S. Santana
